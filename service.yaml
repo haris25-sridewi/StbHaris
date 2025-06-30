@@ -25,16 +25,3 @@ proxies:
     path: /trojan-ws
   headers:
       Host: lwb1.xmd.my.id
-- name: PremiumVPNStore
-  type: trojan
-  server: 104.22.5.240
-  port: 443
-  password: f8af3d05-069f-4566-b88f-93d177f1f5dd
-  udp: true
-  sni: nadiavip8.vpnstore28.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-  headers:
-      Host: nadiavip8.vpnstore28.my.id
