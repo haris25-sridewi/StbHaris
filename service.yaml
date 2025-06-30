@@ -1,0 +1,79 @@
+proxies:
+- name: ID Nusa 25 08 25
+  type: trojan
+  server: 104.22.5.240
+  port: 443
+  password: Bhpr3uD33lyqvnNTKWjOxA
+  udp: true
+  sni: man4.xmd.asia
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+  headers:
+      Host: man4.xmd.asia
+- name: SG LEASwEB 18 08 25
+  type: trojan
+  server: 104.22.5.240
+  port: 443
+  password: KQ3GjQcwaORsYgO5znE4JQ
+  udp: true
+  sni: lwb1.xmd.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+  headers:
+      Host: lwb1.xmd.my.id
+- name: PremiumVPNStore
+  type: trojan
+  server: 104.22.5.240
+  port: 443
+  password: f8af3d05-069f-4566-b88f-93d177f1f5dd
+  udp: true
+  sni: nadiavip8.vpnstore28.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+  headers:
+      Host: nadiavip8.vpnstore28.my.id
+- name: Howdy_Sg1
+  type: trojan
+  server: sg1.6n6.net
+  port: 443
+  password: 389643a0-16e7-11f0-a543-1239d0255272
+  udp: true
+  sni: graph.instagram.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/howdy"
+  headers:
+      Host: graph.instagram.com
+- name: Howdy_Sg2
+  type: trojan
+  server: 104.22.5.240
+  port: 443
+  password: feb669d0-e52d-11ef-9582-1239d0255272
+  udp: true
+  sni: sg2.6n6.net
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/howdy"
+  headers:
+      Host: sg2.6n6.net
+- name: Howdy_Sg3
+  type: trojan
+  server: 104.22.5.240
+  port: 443
+  password: 0775fe60-e52e-11ef-b568-1239d0255272
+  udp: true
+  sni: sg3.6n6.net
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/howdy"
+  headers:
+      Host: sg3.6n6.net
