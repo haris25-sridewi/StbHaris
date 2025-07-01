@@ -29,7 +29,7 @@ proxies:
   type: trojan
   server: 104.22.5.240
   port: 443
-  password: 238d5710-5574-11f0-a9e4-1239d0255272
+  password: 92360d80-562c-11f0-8b01-1239d0255272
   udp: true
   sni: sg1.6n6.net
   skip-cert-verify: true
@@ -38,3 +38,42 @@ proxies:
     path: "/howdy"
   headers:
       Host: sg1.6n6.net
+- name: Howdy_Sg2
+  type: trojan
+  server: 104.22.5.240
+  port: 443
+  password: 9b736800-562c-11f0-93e2-1239d0255272
+  udp: true
+  sni: sg2.6n6.net
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/howdy"
+  headers:
+      Host: sg2.6n6.net
+- name: Howdy_Sg3
+  type: trojan
+  server: 104.22.5.240
+  port: 443
+  password: 9d2f69b0-562c-11f0-ae0e-1239d0255272
+  udp: true
+  sni: sg3.6n6.net
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/howdy"
+  headers:
+      Host: sg3.6n6.net
+- name: Howdy_Melbi
+  type: trojan
+  server: 104.22.5.240
+  port: 443
+  password: a5718810-562c-11f0-88be-1239d0255272
+  udp: true
+  sni: sg4.6n6.net
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/howdy"
+  headers:
+      Host: sg4.6n6.net
