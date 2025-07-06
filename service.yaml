@@ -1,7 +1,7 @@
 proxies:
 - name: ID Nusa 25 08 25
   type: trojan
-  server: 104.22.5.240
+  server: ava.game.naver.com
   port: 443
   password: Bhpr3uD33lyqvnNTKWjOxA
   udp: true
@@ -14,7 +14,7 @@ proxies:
       Host: man4.xmd.asia
 - name: SG LEASwEB 18 08 25
   type: trojan
-  server: 104.22.5.240
+  server: ava.game.naver.com
   port: 443
   password: KQ3GjQcwaORsYgO5znE4JQ
   udp: true
@@ -27,7 +27,7 @@ proxies:
       Host: lwb1.xmd.my.id
 - name: Howdy_Sg1
   type: trojan
-  server: 104.22.5.240
+  server: ava.game.naver.com
   port: 443
   password: 92360d80-562c-11f0-8b01-1239d0255272
   udp: true
@@ -40,7 +40,7 @@ proxies:
       Host: sg1.6n6.net
 - name: Howdy_Sg2
   type: trojan
-  server: 104.22.5.240
+  server: ava.game.naver.com
   port: 443
   password: 9b736800-562c-11f0-93e2-1239d0255272
   udp: true
@@ -53,7 +53,7 @@ proxies:
       Host: sg2.6n6.net
 - name: Howdy_Sg3
   type: trojan
-  server: 104.22.5.240
+  server: ava.game.naver.com
   port: 443
   password: 9d2f69b0-562c-11f0-ae0e-1239d0255272
   udp: true
