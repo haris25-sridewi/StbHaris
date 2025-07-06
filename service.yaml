@@ -1,7 +1,7 @@
 proxies:
 - name: ID Nusa 25 08 25
   type: trojan
-  server: ava.game.naver.com
+  server: graph.instagram.com
   port: 443
   password: Bhpr3uD33lyqvnNTKWjOxA
   udp: true
@@ -14,7 +14,7 @@ proxies:
       Host: man4.xmd.asia
 - name: SG LEASwEB 18 08 25
   type: trojan
-  server: ava.game.naver.com
+  server: graph.instagram.com
   port: 443
   password: KQ3GjQcwaORsYgO5znE4JQ
   udp: true
